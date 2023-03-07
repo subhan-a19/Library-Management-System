@@ -4,5 +4,11 @@ module.exports={
     },
     contactUs:(req,res)=>{
         res.render("contactUs")
+    },
+    books:(req,res)=>{
+        res.render("books")
+    },
+    Dashboard:(req,res)=>{
+        res.render("Dashboard")
     }
 }
