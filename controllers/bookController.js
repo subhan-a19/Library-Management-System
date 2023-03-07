@@ -10,5 +10,11 @@ module.exports={
     },
     Dashboard:(req,res)=>{
         res.render("Dashboard")
+    },
+    Categories:(req,res)=>{
+        res.render("Categories")
+    },
+    IssueBooks:(req,res)=>{
+        res.render("IssueBooks")
     }
 }
